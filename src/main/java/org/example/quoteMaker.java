@@ -8,6 +8,7 @@ public class quoteMaker
     String quote;
     String person;
 
+    //gets user input
     public quoteMaker()
     {
         Scanner scan = new Scanner(System.in);
@@ -19,6 +20,7 @@ public class quoteMaker
         this.person = scan.nextLine();
     }
 
+    //conjoins person who said the quote and the actual quote
     public void StringConstructor()
     {
         System.out.println(this.person+" says, \""+this.quote+"\"");
