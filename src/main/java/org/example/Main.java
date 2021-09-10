@@ -9,6 +9,7 @@ public class Main
 {
     public static void main(String[] args)
     {
+        //gets quote and person who said it
         quoteMaker saying = new quoteMaker();
         saying.StringConstructor();
     }
